@@ -2,9 +2,12 @@
 #include<conio.h>
 void main() {
 
-	int i;
+	int i,n;
 	
-	for(i=0;i<=10;i++){
+	printf("Enter the number");
+	scanf("%d",&n);
+	
+	for(i=1;i<=n;i++){
 		print("%d\n",i);
 	}
 	
