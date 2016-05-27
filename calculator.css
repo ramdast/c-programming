@@ -1,0 +1,26 @@
+.calciText {
+  border:1px solid black
+  
+           }
+
+.calcirow {
+  border:1px solid black;
+  background-color:lightgray;
+  height: 25%;
+  
+          }
+
+.calcioperator {
+  border:1px solid red;
+  background-color: orange;
+  
+ 
+               }
+
+.calciitem {
+   border:1px solid black;
+   height: 30px;
+   width:  45px;
+   display: inline-block;
+   text-align: center;
+           }
