@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  
+<p id="calculator"></p>
+  <div class="calculator">
+  <div id=calcitext class="calciText">
+    <input type="Text" maxlength=20 id="myInput"value="0"/>
+    
+    </div>
+  <div class="calcirow">
+     <div onclick="inputTex(1)" class=" calciitem">1</div>
+       <div onclick="inputTex(2)" class="calciitem">2</div>
+         <div onclick="inputTex(3)" class="calciitem">3</div>
+           <div onclick="opretors('+')" class="calciitem calcioperator">+</div>
+  </div>
+  <div class="calcirow" >
+     <div onclick="inputTex(4)" class=" calciitem ">4</div>
+    <div  onclick="inputTex(5)" class="calciitem">5</div>
+    <div onclick="inputTex(6)" class="calciitem">6</div>
+     <div onclick="opretors('-')" class="calciitem calcioperator">-</div>
+  </div>
+  
+  <div class="calcirow">
+     <div onclick="inputTex(7)" class="calciitem ">7</div>
+    <div onclick="inputTex(8)" class=" calciitem">8</div>
+    <div onclick="inputTex(9)" class=" calciitem">9</div>
+    <div onclick="opretors('*')" class="calciitem calcioperator">*</div>
+  </div>
+  <div class="calcirow">
+    <div onclick="myReset()" class="calcioperator calciitem">c</div>
+    <div onclick="inputTex(0)" class="calciitem">0</div>
+    <div onclick="myResult()" class=   "calciitem">=</div>
+      <div onclick="opretors('/')" class="calciitem calcioperator">/</div>
+       
+    </div>
+    <div class="calcirow">
+    <div onclick="inputTex('.')" class="calciitem  "> . </div>
+    
+    </div>
+  </div>
+</body>
+</html>
